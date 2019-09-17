@@ -1,0 +1,9 @@
+opt_out_usage
+default_platform(:android)
+skip_docs
+
+platform :android do
+  lane :build do
+    gradle(task: "clean assemble", build_type: "Release")
+  end
+end

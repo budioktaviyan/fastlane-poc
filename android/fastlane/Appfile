@@ -1,0 +1,5 @@
+# Path to the json secret file
+json_key_file("key-file.json")
+
+# Package name
+package_name("id.fastlane.test")
