@@ -1,4 +1,4 @@
-package id.fastlane.test
+package bmd.fastlane.test
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

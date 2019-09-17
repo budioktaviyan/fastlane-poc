@@ -1,0 +1,11 @@
+# The bundle identifier of your app
+app_identifier("bmd.fastlane.test")
+
+# Your Apple email address
+apple_id("budi.suryanto@bhinneka.com")
+
+# App Store Connect Team ID
+itc_team_id("279303")
+
+# Developer Portal Team ID
+team_id("M26MK5P4PL")

@@ -1,0 +1,17 @@
+opt_out_usage
+default_platform(:ios)
+skip_docs
+
+platform :ios do
+  lane :build do
+    gym(
+      scheme: "App",
+      silent: true,
+      clean: true,
+      suppress_xcode_output: true,
+      export_method: "development",
+      output_name: "App.ipa",
+      xcargs: "-ARCHIVE=YES -allowProvisioningUpdates"
+    )
+  end
+end
